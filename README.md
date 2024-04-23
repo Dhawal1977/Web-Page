@@ -1,10 +1,10 @@
 # Web-Page
 A proper webpage with JS, CSS &amp; HTML
-
-Author - Dhawal Harfore
-
-The Team Members Are -:
-a) Archita Acharyajee - HTML
-b) Dhawal Harfore - Java Script
-c) Kavya Sahu - Cascading Style Sheet
-d) Tarun Sahu - Cascading Style Sheet
+Author - Dhawal Harfore <BR>
+The Team Members Are -: <BR>
+<OL>
+  <LI>Archita Acharyajee - HTML</LI>
+  <LI>Dhawal Harfore - Java Script</LI>
+  <LI>Kavya Sahu - Cascading Style Sheet</LI>
+  <LI>Tarun Sahu - Cascading Style Sheet</LI>
+</OL>
