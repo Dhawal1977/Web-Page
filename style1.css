@@ -1,14 +1,17 @@
 .h1{
     background-color: red   ;
 }
+
 .div2{
     background-color: gray;
 }
+
 .table1{
     border:3px solid black;
     padding: 30px;
     border-radius: 15px;
 }
+
 .div.bott {
     text-align: center;
     position: absolute;
