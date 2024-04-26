@@ -9,44 +9,59 @@
         </style>
     </head>
     <body>
-        
         <center>
-            <h1 class="h1">*comapny name*</h1>
+            <h1 class="h1">The big wheels</h1>
             <div class="div2">
-                    <a href="">Button 1</a>
-                    <a href="">Button 2</a>
-                    <a href="">Button 3</a>
-                    <a href="">Button 4</a>
-                    <a href="">Button 5</a>
-                  </div>
+              <a href="#" class="button">Home</a>
+              <a href="#" class="button">Track & trace</a>
+              <a href="#" class="button">Booking</a>
+              <a href="#" class="button">About</a>
+              <a href="#" class="button">Support</a>
             </div>
             <br><br>
-            <table class="table1">
-                <form action="submit_form.php" method="post">  <tr>
-                    <th     colspan="2">Registration Form</th>
+            <div class="grid-container">
+              <div class="grid-item1"><div>
+                <iframe class="leftframe"></iframe>
+              </div>
+            </div>
+              <div class="grid-item2"><center><table class="table1";>
+                <form action="submit_form.php" method="post">
+                  <tr>
+                    <th style="color: white"; colspan="2">Registration Form</th>
                   </tr>
                   <tr>
-                    <td>Name:</td>
+                    <th colspan="2"></th> <!--form aur form heading ke beech vertical gap ke liye-->
+                  </tr>
+                  <tr>
+                    <th colspan="2"></th> <!--form aur form heading ke beech vertical gap ke liye-->  
+                  </tr> 
+                  <tr>
+                    <td style="color: white;">Name:</td>
                     <td><input type="text" name="name" required></td>
                   </tr>
                   <tr>
-                    <td>Email:</td>
+                    <td style="color: white;">Email:</td>
                     <td><input type="email" name="email" required></td>
                   </tr>
                   <tr>
-                    <td>Phone Number:</td>
-                    <td><input type="tel" name="phone"></td> </tr>
+                    <td style="color: white;">Phone Number:</td>
+                    <td><input type="tel" name="phone"></td>
+                  </tr>
                   <tr>
                     <td colspan="2" style="text-align: center;">
-                      <button type="submit">Register</button>
+                      <button type="submit"; class="registerbutton">Register</button>
                     </td>
                   </tr>
                 </form>
-              </table>
+              </table></center></div>
+              <div class="grid-item3">
+                <iframe class="rightframe"></iframe>
+              </div>  
+            </div>
         </center>
         <p class="heading1">
         </p>
-        <div class = "bott">
+        <div class = "bottom">
           <a href="#home"
           class = "active"> Home </a>
           <a href="#news"> News </a>
@@ -56,6 +71,5 @@
       </div>
     </body>
     <script>
-        
     </script>
 </html>
