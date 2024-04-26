@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;"><u>Courier Booking Form</u></h1>
+
+    <form>
+        <fieldset>
+            <legend>Booking Form:</legend><br>
+
+            <label for="sender_name">Sender's Full Name:</label><br>
+            <input type="text" id="sender_name" name="sender_name" required><br><br>
+
+            <label for="sender_address">Sender's Address:</label><br>
+            <textarea name="sender_address" id="sender_address" cols="50" rows="4" required></textarea><br><br>
+
+            <label for="sender_email">Sender's Email:</label><br>
+            <input type="email" id="sender_email" name="sender_email" required><br><br> 
+
+            <label for="recipient_name">Recipient's Full Name:</label><br>
+            <input type="text" id="recipient_name" name="recipient_name" required><br><br>
+
+            <label for="recipient_address">Recipient's Address:</label><br>
+            <textarea name="recipient_address" id="recipient_address" cols="50" rows="4" required></textarea><br><br>
+
+            <label for="recipient_email">Recipient's Email:</label><br>
+            <input type="email" id="recipient_email" name="recipient_email"><br><br>
+
+            <label for="package_weight">Package Weight (in kg):</label><br>
+            <input type="number" id="package_weight" name="package_weight" step="0.01" required><br><br>
+
+            <label for="service_type">Service Type:</label><br>
+            <select name="service_type" id="service_type" required>
+                <option value="standard">Standard Shipping</option>
+                <option value="express">Express Delivery</option>
+                <option value="international">International Shipping</option>
+            </select><br><br>
+
+            <label for="pickup_date">Preferred Pickup Date:</label><br>
+            <input type="date" id="pickup_date" name="pickup_date" required><br><br>
+
+            <input type="submit" value="Book">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+</html>
