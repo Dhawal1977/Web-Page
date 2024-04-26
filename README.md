@@ -4,7 +4,7 @@ Author - Dhawal1977 <BR><BR>
 The Team Members Are -: 
 <OL>
   <LI>Archita Acharjee - HTML</LI>
-  <LI>Dhawal Harfore - JSS</LI>
+  <LI>Dhawal Harfore - JS</LI>
   <LI>Kavya Sahu - CSS</LI>
   <LI>Tarun Sahu - CSS</LI>
 </OL>
