@@ -110,3 +110,8 @@ margin-left: 100px;
 margin-right: 100px;
 border-radius: 10px;
 }
+
+.body01 {
+  background-repeat: no-repeat;
+  background-image: url("https://bd.gaadicdn.com/processedimages/yamaha/fascino-125/494X300/fascino-1256613f4dae6386.jpg?imwidth=400&impolicy=resize");
+}
