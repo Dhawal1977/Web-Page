@@ -5,6 +5,6 @@ The Team Members Are -:
 <ol>
   <LI>Archita Acharjee - HTML</LI>
   <LI>Dhawal Harfore - JS</LI>
-  <LI>Kavyaa Sahu - CSS</LI>
+  <LI>Kavya Sahu - CSS</LI>
   <LI>Tarun Sahu - CSS</LI>
 </ol>
