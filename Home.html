@@ -1,40 +1,35 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style1.css">
-        <title>form</title>
-        <style>
-            table{
-                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            }
-        </style>
+      <link rel="stylesheet" href="style1.css">
+      <title>form</title>
+      <style>
+        table{
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+      </style>
     </head>
     <body>
-        <center>
-            <h1 class="h1">The big wheels</h1>
-            <div class="div2">
-              <a href="#" class="button">Home</a>
-              <a href="#" class="button">Track & trace</a>
-              <a href="#" class="button">Booking</a>
-              <a href="#" class="button">About</a>
-              <a href="#" class="button">Support</a>
+      <center>
+        <header class="h1">The big wheels</header>
+        <nav class="div2"> <!--navigation bar just below heading-->
+          <a href="#" class="button">Home</a>
+          <a href="#" class="button">Track & trace</a>
+          <a href="#" class="button">Booking</a>
+          <a href="#" class="button">About</a>
+          <a href="#" class="button">Support</a>
+        </nav>
+        <br><br>
+        <div class="grid-container"> 
+          <div class="grid-item1">
+            <div>
+              <iframe class="leftframe" image src=""></iframe>
             </div>
-            <br><br>
-            <div class="grid-container">
-              <div class="grid-item1"><div>
-                <iframe class="leftframe"></iframe>
-              </div>
-            </div>
-              <div class="grid-item2"><center><table class="table1";>
-                <form action="submit_form.php" method="post">
-                  <tr>
-                    <th style="color: white"; colspan="2">Registration Form</th>
-                  </tr>
-                  <tr>
-                    <th colspan="2"></th> <!--form aur form heading ke beech vertical gap ke liye-->
-                  </tr>
-                  <tr>
-                    <th colspan="2"></th> <!--form aur form heading ke beech vertical gap ke liye-->  
-                  </tr> 
+          </div>
+          <div class="grid-item2">
+            <center>
+              <p class="registr">Registration</p>
+              <table class="table1";>
+                <form action="submit_form.php" method="post"> 
                   <tr>
                     <td style="color: white;">Name:</td>
                     <td><input type="text" name="name" required></td>
@@ -53,22 +48,23 @@
                     </td>
                   </tr>
                 </form>
-              </table></center></div>
-              <div class="grid-item3">
-                <iframe class="rightframe"></iframe>
-              </div>  
-            </div>
-        </center>
-        <p class="heading1">
-        </p>
-        <div class = "bottom">
-          <a href="#home"
-          class = "active"> Home </a>
-          <a href="#news"> News </a>
-          <a href="#about"> About Us </a>
-          <a href="#support"> Support </a>
-          <a href="#contact"> Contact Us </a>
-      </div>
+              </table>
+            </center>
+          </div>
+          <div class="grid-item3"> 
+            <iframe class="rightframe" image src=" "></iframe>
+          </div>
+        </div>
+      </center>
+      <center>
+        <footer> <!--about section jo sabse neeche hoga-->
+          <a href="#" class="footerbutton">Home</a>
+          <a href="#" class="footerbutton">News</a>
+          <a href="#" class="footerbutton">About Us</a>
+          <a href="#" class="footerbutton">Support</a>
+          <a href="#" class="footerbutton">Contact Us</a>
+        </footer>
+      </center>
     </body>
     <script>
     </script>
