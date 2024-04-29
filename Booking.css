@@ -31,3 +31,7 @@ cursor: pointer;
 background-color: #2b2b2b;
 }
 
+.navigation-button:hover{
+background-color: #a3a3a3;
+color: black;
+}
