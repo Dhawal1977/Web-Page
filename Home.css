@@ -74,6 +74,10 @@ border-radius: 7px;
 padding: 5px;
 }
 
+.registerbutton:hover{
+  cursor: pointer;
+}
+
 .leftframe{
 height: 500px;
 width: 400px;
@@ -114,4 +118,39 @@ border-radius: 10px;
 .body01 {
   background-repeat: no-repeat;
   background-image: url("https://bd.gaadicdn.com/processedimages/yamaha/fascino-125/494X300/fascino-1256613f4dae6386.jpg?imwidth=400&impolicy=resize");
+}
+
+.city {
+  margin: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  display: grid;
+  
+}
+
+.grid-containerr {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  background-color: #2b2b2b;
+  padding-left: 10%;
+  padding-right: 10%;
+} 
+
+.grid-containerr > div {
+  text-align: center;
+  font-size: 17px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #2b2b2b;
+  color: #ddd;
+}
+
+.footer-nav{
+  color: #ddd;
+}
+
+.input-box{
+  border-radius: 10px;
+  padding-left: 5px;
 }

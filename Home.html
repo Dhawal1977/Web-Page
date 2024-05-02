@@ -7,6 +7,7 @@
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
       </style>
+      
     </head>
     <body class ="body01">
       <center>
@@ -33,15 +34,15 @@
                 <form action="submit_form.php" method="post"> 
                   <tr>
                     <td style="color: white;">Name:</td>
-                    <td><input type="text" name="name" required></td>
+                    <td><input type="text" name="name" required; class="input-box"></td>
                   </tr>
                   <tr>
                     <td style="color: white;">Email:</td>
-                    <td><input type="email" name="email" required></td>
+                    <td><input type="email" name="email" required; class="input-box"></td>
                   </tr>
                   <tr>
                     <td style="color: white;">Phone Number:</td>
-                    <td><input type="tel" name="phone"></td>
+                    <td><input type="tel" name="phone" required; class="input-box"></td>
                   </tr>
                   <tr>
                     <td colspan="2" style="text-align: center;">
@@ -59,11 +60,27 @@
       </center>
       <center>
         <footer> <!--about section jo sabse neeche hoga-->
-          <a href="#" class="footerbutton">Home</a>
-          <a href="#" class="footerbutton">News</a>
-          <a href="#" class="footerbutton">About Us</a>
-          <a href="#" class="footerbutton">Support</a>
-          <a href="#" class="footerbutton">Contact Us</a>
+          <div class="grid-containerr">
+            <div>
+              <p>Explore more</p><hr color="red">  
+              <p><a href="Track&Trace.html" class="footer-nav">Track & trace</a></p>
+              <p><a href="Booking.html" class="footer-nav">Booking</a></p>
+              <p><a href="About.html" class="footer-nav">About</a></p>
+              <p><a href="Support.html" class="footer-nav">Support</a></p>
+              <p><a href="Contact.html" class="footer-nav">Contact Us</a></p>
+            </div>
+            <div>
+              <p>Address</p><hr color="red">
+              <ol>Aggrasen chowk, Raipur</ol>
+            </div>
+            <div>
+              <p>Contact us</p><hr color="red">
+              <p>General enquiries - <a href="tel:123-456-7890" class="footer-nav">123-456-7890</a></p>
+              <p>Customer Support - <a href="tel:987-654-3210" class="footer-nav">987-654-3210</a></p>
+              <p>General enquiries - <a href="mailto:info@thebigwheels.com" class="footer-nav">info@thebigwheels.com</a></p>
+              <p>Customer Support - <a href="mailto:support@thebigwheels.com" class="footer-nav">support@thebigwheels.com</a></p>
+            </div>
+          </div>
         </footer>
       </center>
     </body>
