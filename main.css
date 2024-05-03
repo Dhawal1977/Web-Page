@@ -241,6 +241,20 @@
     margin-right: 20%;
 }
 
+.darker{
+    background-color: #0a0a0a;
+    color: #ddd;
+}
+
+.dark{
+    background-color: #2b2b2b;
+    color: #ddd;
+}
+
+.about-body{
+    background-color: #2b2b2b;
+}
+
 /* support page */
  
 .FAQs{
