@@ -111,6 +111,7 @@
 .body01 {
     background-repeat: no-repeat;
     background-image: url("https://bd.gaadicdn.com/processedimages/yamaha/fascino-125/494X300/fascino-1256613f4dae6386.jpg?imwidth=400&impolicy=resize");
+    background-size: 100%;
 }
   
 .grid-containerr {
@@ -178,9 +179,10 @@
     border-radius: 20px;
 }
     
-.heading{
+.track-annd-trace-heading{
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ddd;
 }
     
 .input-box{
@@ -221,7 +223,36 @@
 .text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+    color: #ddd;
 }
+
+.body02{
+    background-repeat: no-repeat;
+    background-image: url("https://www.pharmasecure.com/wp-content/themes/pharma/images/track-and-traces-mobile.jpg");
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+.body03{
+    background-repeat: no-repeat;
+    background-image: url("https://png.pngtree.com/background/20230616/original/pngtree-express-transportation-service-3d-render-of-cardboard-parcel-packaging-in-brown-picture-image_3666167.jpg");
+    background-size: 100%;
+}
+
+.body04{
+    background-repeat: no-repeat;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230717/pngtree-online-technical-support-with-3d-rendering-call-center-operator-assisting-image_3893834.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.body05{
+    background-repeat: no-repeat;
+    background-image: url("https://t4.ftcdn.net/jpg/03/37/96/33/360_F_337963325_EJuPjWslX3vAFxJ59L3y1cm6IsSfo07s.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 
 /* booking page */
 
@@ -262,6 +293,26 @@
     font-size: 20px;
     margin-left: 20%;
     margin-right: 20%;
+    color: #ddd;
 }
 
+
+.headingg{
+    color: #ddd;
+    padding-right: 70px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20%;
+}
+ .dataa{
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+ }
+
+ .linkssss{
+    color: #ddd ;
+ }
 /* contact us page */
