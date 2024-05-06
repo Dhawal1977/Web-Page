@@ -315,4 +315,30 @@
  .linkssss{
     color: #ddd ;
  }
-/* contact us page */
+
+.final-heading{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.final-data{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.final-button{
+    background-color: #2b2b2b;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.final-button:hover{
+    background-color: #a3a3a3;
+    color: black;
+}
